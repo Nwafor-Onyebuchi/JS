@@ -1,17 +1,92 @@
-Task: Odd or even?
+### Task 1: Basic Number Comparison
+**Steps**:
+1. Initialize a variable `number` and assign it a value.
+2. Write an `if` statement to check if `number` is greater than 0.
+   - Print "The number is positive" if the condition is true.
+3. Add an `else if` block to check if `number` is less than 0.
+   - Print "The number is negative" if the condition is true.
+4. Add an `else` block to handle when `number` is 0.
+   - Print "The number is zero."
 
-Write a Javascript program that 
+### Task 2: Age Verification
+**Steps**:
+1. Initialize a variable `age` and assign it a value.
+2. Write an `if` statement to check if `age` is greater than or equal to 18.
+   - Print "Eligible to vote" if the condition is true.
+3. Add an `else` block.
+   - Print "Not eligible to vote" if the condition is false.
 
-checks if a given number, number is odd or even. 
-If the number is odd, print to the console: number is odd. If  the number is even, print to the console: number is even 
+### Task 3: Number Range Check
+**Steps**:
+1. Initialize a variable `number` and assign it a value.
+2. Write an `if` statement to check if `number` is greater than or equal to 10 and less than or equal to 50.
+   - Print "The number is within the range" if the condition is true.
+3. Add an `else` block.
+   - Print "The number is out of range."
 
-Hint: An even number is divisible by 2. Hence, for an even number, the expression, 
-number % 2 === 0 will evaluate to true
+### Task 4: Grade Assignment
+**Steps**:
+1. Initialize a variable `score` and assign it a value.
+2. Write an `if` statement to check if `score` is greater than or equal to 90.
+   - Print "Grade: A" if the condition is true.
+3. Add an `else if` block to check if `score` is between 80 and 89.
+   - Print "Grade: B" if the condition is true.
+4. Add additional `else if` blocks for scores between 70-79, 60-69, and below 60.
+   - Print "Grade: C," "Grade: D," or "Grade: F" as appropriate.
 
-Steps
-Initialize a variable, number and assign it any number of your choice.
-Write an if statement check if number is divisible by 2 (HINT: use the modulus operator)
-Log the string number is even to the console if the number is divisible by 2
-Add an else block
-Inside the else block, log number is even to the console
-You can test your code by assigning different values to the number variable in step 1 
+### Task 5: Password Validation
+**Steps**:
+1. Initialize a variable `inputPassword` and assign it a value.
+2. Create a variable `correctPassword` and set it to a predefined string.
+3. Write an `if` statement to check if `inputPassword` is equal to `correctPassword`.
+   - Print "Access granted" if the condition is true.
+4. Add an `else` block.
+   - Print "Access denied."
+
+### Task 6: Even or Odd Checker
+**Steps**:
+1. Initialize a variable `number` and assign it a value.
+2. Write an `if` statement to check if `number % 2 === 0`.
+   - Print "The number is even" if the condition is true.
+3. Add an `else` block.
+   - Print "The number is odd."
+
+### Task 7: Simple Calculator
+**Steps**:
+1. Initialize two variables, `num1` and `num2`, and assign them values.
+2. Initialize a variable `operator` and assign it a value (e.g., `+`, `-`, `*`, `/`).
+3. Write `if` statements to check the value of `operator`.
+   - If `operator` is `+`, print the sum of `num1` and `num2`.
+   - If `operator` is `-`, print the difference.
+   - If `operator` is `*`, print the product.
+   - If `operator` is `/`, print the quotient.
+4. Add an `else` block for unsupported operators.
+   - Print "Invalid operator."
+
+### Task 8: Weather Suggestion
+**Steps**:
+1. Initialize a variable `temperature` and assign it a value.
+2. Write an `if` statement to check if `temperature` is below 10.
+   - Print "Wear a heavy coat" if the condition is true.
+3. Add an `else if` block to check if `temperature` is between 10 and 20.
+   - Print "Wear a light jacket."
+4. Add an `else` block.
+   - Print "No jacket needed."
+
+### Task 9: Time of Day Greeting
+**Steps**:
+1. Initialize a variable `hour` and assign it a value (0-23).
+2. Write an `if` statement to check if `hour` is between 0 and 11.
+   - Print "Good morning!" if the condition is true.
+3. Add an `else if` block to check if `hour` is between 12 and 17.
+   - Print "Good afternoon!"
+4. Add an `else` block.
+   - Print "Good evening!"
+
+### Task 10: Login Attempts
+**Steps**:
+1. Initialize a variable `attempts` and set it to 0.
+2. Write a loop that increments `attempts` each time a password is entered incorrectly.
+3. Write an `if` statement inside the loop to check if `attempts` equals 3.
+   - Print "Too many failed attempts" and break out of the loop.
+4. Add an `else` block to prompt the user to try again.
