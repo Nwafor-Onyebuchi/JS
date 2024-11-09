@@ -1,4 +1,6 @@
 ### Task 1: Basic Number Comparison
+**Write a JavaScript program that checks if a given number is positive, negative, or zero.**
+
 **Steps**:
 1. Initialize a variable `number` and assign it a value.
 2. Write an `if` statement to check if `number` is greater than 0.
@@ -9,6 +11,8 @@
    - Print "The number is zero."
 
 ### Task 2: Age Verification
+**Write a JavaScript program that checks if a person is eligible to vote based on their age.**
+
 **Steps**:
 1. Initialize a variable `age` and assign it a value.
 2. Write an `if` statement to check if `age` is greater than or equal to 18.
@@ -17,6 +21,8 @@
    - Print "Not eligible to vote" if the condition is false.
 
 ### Task 3: Number Range Check
+**Write a JavaScript program that checks if a number falls within a specific range.**
+
 **Steps**:
 1. Initialize a variable `number` and assign it a value.
 2. Write an `if` statement to check if `number` is greater than or equal to 10 and less than or equal to 50.
@@ -25,6 +31,8 @@
    - Print "The number is out of range."
 
 ### Task 4: Grade Assignment
+**Write a JavaScript program that assigns a grade based on a score.**
+
 **Steps**:
 1. Initialize a variable `score` and assign it a value.
 2. Write an `if` statement to check if `score` is greater than or equal to 90.
@@ -35,6 +43,8 @@
    - Print "Grade: C," "Grade: D," or "Grade: F" as appropriate.
 
 ### Task 5: Password Validation
+**Write a JavaScript program that validates an entered password.**
+
 **Steps**:
 1. Initialize a variable `inputPassword` and assign it a value.
 2. Create a variable `correctPassword` and set it to a predefined string.
@@ -44,6 +54,8 @@
    - Print "Access denied."
 
 ### Task 6: Even or Odd Checker
+**Write a JavaScript program that checks if a number is even or odd.**
+
 **Steps**:
 1. Initialize a variable `number` and assign it a value.
 2. Write an `if` statement to check if `number % 2 === 0`.
@@ -52,6 +64,8 @@
    - Print "The number is odd."
 
 ### Task 7: Simple Calculator
+**Write a JavaScript program that performs basic arithmetic operations based on an operator.**
+
 **Steps**:
 1. Initialize two variables, `num1` and `num2`, and assign them values.
 2. Initialize a variable `operator` and assign it a value (e.g., `+`, `-`, `*`, `/`).
@@ -64,6 +78,8 @@
    - Print "Invalid operator."
 
 ### Task 8: Weather Suggestion
+**Write a JavaScript program that suggests clothing based on the temperature.**
+
 **Steps**:
 1. Initialize a variable `temperature` and assign it a value.
 2. Write an `if` statement to check if `temperature` is below 10.
@@ -74,6 +90,8 @@
    - Print "No jacket needed."
 
 ### Task 9: Time of Day Greeting
+**Write a JavaScript program that prints a greeting based on the time of day.**
+
 **Steps**:
 1. Initialize a variable `hour` and assign it a value (0-23).
 2. Write an `if` statement to check if `hour` is between 0 and 11.
@@ -84,6 +102,8 @@
    - Print "Good evening!"
 
 ### Task 10: Login Attempts
+**Write a JavaScript program that limits login attempts.**
+
 **Steps**:
 1. Initialize a variable `attempts` and set it to 0.
 2. Write a loop that increments `attempts` each time a password is entered incorrectly.
